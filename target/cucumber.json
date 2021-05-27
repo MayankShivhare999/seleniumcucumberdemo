@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9914834400,
+              "duration": 6895020900,
               "status": "passed"
             },
             "line": 5,
@@ -24,7 +24,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-05-27T09:06:24.866Z",
+        "start_timestamp": "2021-05-27T12:49:01.127Z",
         "line": 8,
         "name": "User Login Feature",
         "description": "",
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1080173100,
+              "duration": 874765300,
               "status": "passed"
             },
             "line": 9,
@@ -56,7 +56,6 @@
           },
           {
             "result": {
-              "duration": 995700,
               "status": "passed"
             },
             "line": 10,
@@ -68,7 +67,7 @@
           },
           {
             "result": {
-              "duration": 15959000,
+              "duration": 19862600,
               "status": "passed"
             },
             "line": 11,
@@ -97,7 +96,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11970186300,
+              "duration": 7312764800,
               "status": "passed"
             },
             "line": 5,
@@ -110,7 +109,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-05-27T09:06:35.996Z",
+        "start_timestamp": "2021-05-27T12:49:09.009Z",
         "line": 19,
         "name": ": Negative Login Feature",
         "description": "",
@@ -120,7 +119,7 @@
         "steps": [
           {
             "result": {
-              "duration": 819269800,
+              "duration": 478287600,
               "status": "passed"
             },
             "line": 14,
@@ -153,7 +152,7 @@
           },
           {
             "result": {
-              "duration": 28923800,
+              "duration": 27454700,
               "status": "passed"
             },
             "line": 16,
@@ -179,7 +178,7 @@
         "steps": [
           {
             "result": {
-              "duration": 14620238100,
+              "duration": 10154520500,
               "status": "passed"
             },
             "line": 5,
@@ -192,7 +191,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-05-27T09:06:48.825Z",
+        "start_timestamp": "2021-05-27T12:49:16.848Z",
         "line": 20,
         "name": ": Negative Login Feature",
         "description": "",
@@ -202,7 +201,7 @@
         "steps": [
           {
             "result": {
-              "duration": 782326100,
+              "duration": 375924500,
               "status": "passed"
             },
             "line": 14,
@@ -235,7 +234,7 @@
           },
           {
             "result": {
-              "duration": 12965600,
+              "duration": 240173900,
               "status": "passed"
             },
             "line": 16,
@@ -261,7 +260,7 @@
         "steps": [
           {
             "result": {
-              "duration": 17315395700,
+              "duration": 10701056600,
               "status": "passed"
             },
             "line": 5,
@@ -274,7 +273,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-05-27T09:07:04.254Z",
+        "start_timestamp": "2021-05-27T12:49:27.638Z",
         "line": 21,
         "name": ": Negative Login Feature",
         "description": "",
@@ -284,7 +283,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2480211600,
+              "duration": 1312229700,
               "status": "passed"
             },
             "line": 14,
@@ -306,7 +305,6 @@
           },
           {
             "result": {
-              "duration": 997300,
               "status": "passed"
             },
             "line": 15,
@@ -318,7 +316,7 @@
           },
           {
             "result": {
-              "duration": 27930000,
+              "duration": 18949900,
               "status": "passed"
             },
             "line": 16,
@@ -356,7 +354,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-05-27T09:07:24.129Z",
+        "start_timestamp": "2021-05-27T12:49:39.693Z",
         "line": 4,
         "name": "Positive registration scenario",
         "description": "",
@@ -366,6 +364,7 @@
         "steps": [
           {
             "result": {
+              "duration": 1991700,
               "status": "passed"
             },
             "line": 5,
@@ -377,7 +376,7 @@
           },
           {
             "result": {
-              "duration": 26931300,
+              "duration": 24932600,
               "status": "passed"
             },
             "line": 6,
@@ -421,7 +420,6 @@
           },
           {
             "result": {
-              "duration": 5982100,
               "status": "passed"
             },
             "line": 12,
@@ -433,7 +431,6 @@
           },
           {
             "result": {
-              "duration": 1001000,
               "status": "passed"
             },
             "line": 13,
