@@ -19,10 +19,10 @@ public class StepDef {
 	
 	@Given("user is on login page")
 	public void user_is_on_login_page() {
-	    System.setProperty("webdriver.chrome.driver", "driver//chromedriver.exe");
-	    driver = new ChromeDriver();
 	    options = new ChromeOptions();
 	    options.addArguments("--disable-notifications");
+	    System.setProperty("webdriver.chrome.driver", "driver//chromedriver.exe");
+	    driver = new ChromeDriver(options);
 	    driver.get("https://www.shoppersstop.com/#login");
 	    driver.manage().window().maximize();
 	}

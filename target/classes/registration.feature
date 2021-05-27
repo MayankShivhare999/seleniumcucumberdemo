@@ -1,5 +1,6 @@
 Feature: Registration Feature
 
+@positive
 Scenario: Positive registration scenario
 Given user is on registration page
 When user enters details
