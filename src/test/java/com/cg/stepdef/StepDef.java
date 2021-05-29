@@ -26,6 +26,7 @@ public class StepDef {
 	    driver.get("https://www.shoppersstop.com/#login");
 	    driver.manage().window().maximize();
 	}
+	
 	@When("user enters {string} & {string}")
 	public void user_enters_un_pw(String str1, String str2) {
 	   driver.findElement(By.xpath("//*[@id=\"j_username\"]")).sendKeys(str1);
@@ -36,6 +37,7 @@ public class StepDef {
 	public void user_clicks_on_submit_btn() {
 	    //driver.findElement(By.xpath("//*[@id=\"loginajax\"]")).submit();
 	}
+	
 	@Then("user is on home page")
 	public void user_is_on_home_page() {
 	    Assert.assertTrue(driver.getTitle().contains("Shopping India"));
@@ -46,11 +48,11 @@ public class StepDef {
 	    Assert.assertTrue(driver.getTitle().contains("Shopping India"));
 	}
 
-	
 	@Given("user is on registration page")
 	public void user_is_on_registration_page() {
 	   
 	}
+	
 	@When("user enters details")
 	public void user_enters_details(io.cucumber.datatable.DataTable dataTable) {
 	    Map<String, String> map = dataTable.asMap(String.class, String.class);
@@ -60,6 +62,7 @@ public class StepDef {
 	    System.out.println(map.get("mob"));
 	    System.out.println(map.get("comp"));
 	}
+	
 	@Then("user is successfully registered")
 	public void user_is_successfully_registered() {
 	    
